@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <style>
+    body{
+      background-image: url(https://t4.ftcdn.net/jpg/04/61/23/23/360_F_461232389_XCYvca9n9P437nm3FrCsEIapG4SrhufP.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #cont{
+      margin-top: 50px;
+    }
+    h1{
+      font-size: 50px;
+    }
+    #loc{
+      width: 500px;
+      height: 60px;
+      border-radius: 30px;
+      font-size: 20px;
+      text-align: center;
+    }
+    #temp{
+      font-size: 40px;
+    }
+    #temp1{
+      font-size: 30px;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <center>
+  <div id="cont">
+  <form method="post" action="/">
+    <img src="https://o.remove.bg/downloads/c08c4736-76f8-47a9-94c9-2bff5f92ba16/png-transparent-overcast-weather-cloudy-weather-icon-text-camera-icon-weather-forecasting-thumbnail-removebg-preview.png" height="200px" width="200px">
+    <h1>Weather Info</h1><br>
+    &emsp;&emsp;<input type="text" placeholder="Enter location" id="loc" name="location">
+    <button>Search</button></form>
+    <div id="info">
+      <p id="temp"><%=place%></p>
+      <p id="temp1"><%=text%></p></div>
+    
+  </div></center>
+</body>
+
+</html>
